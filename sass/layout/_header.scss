@@ -1,0 +1,35 @@
+.header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 135px;
+  height: 28px;
+}
+
+.header-boder {
+  border: 1px solid #ececec;
+}
+
+@media screen and (max-width: 767px) {
+  .nav__list {
+    display: none;
+  }
+
+  .contact {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .burger-btn {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+}

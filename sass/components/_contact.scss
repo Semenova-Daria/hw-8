@@ -1,0 +1,43 @@
+.contact {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    fill: $secondary-color;
+  }
+
+  &__item:not(:last-child) {
+    display: flex;
+    margin-right: 50px;
+  }
+
+  &__link {
+    font-family: $main-font;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+
+    color: $secondary-color;
+
+    display: flex;
+    align-items: center;
+
+    transition: $transition-animation;
+
+    &:hover,
+    &:focus {
+      color: $active-color;
+      fill: $active-color;
+    }
+  }
+
+  &__icon {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+}
